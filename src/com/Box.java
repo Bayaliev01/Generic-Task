@@ -33,4 +33,9 @@ public class Box <T >{
                 ", b=" + b +
                 '}';
     }
+    public static <T> T generetic(T a){
+
+return a;
+    }
+
 }
